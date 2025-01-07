@@ -1,17 +1,8 @@
 <?php
 
-   // $db_name = 'mysql:host=localhost;dbname=onlinecourse';
-   // $user_name = 'root';
-   // $user_password = '12345';
-
-   // $conn = new PDO($db_name, $user_name, $user_password);
-
-
-
-
    try {
-      $db_name = 'mysql:host=localhost;port=3307;dbname=onlinecourse';
-      $user_name = 'root';
+      $db_name = 'mysql:host=sql210.infinityfree.com;port=3306;dbname=if0_38049398_coding2';
+      $user_name = 'if0_38049398';
       $user_password = '12345';
   
       $conn = new PDO($db_name, $user_name, $user_password);
