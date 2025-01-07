@@ -3,7 +3,7 @@
    try {
       $db_name = 'mysql:host=sql210.infinityfree.com;port=3306;dbname=if0_38049398_coding2';
       $user_name = 'if0_38049398';
-      $user_password = '12345';
+      $user_password = 'Academycoding';
   
       $conn = new PDO($db_name, $user_name, $user_password);
       $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
